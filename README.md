@@ -7,3 +7,6 @@ Arabic characters recognition is the process of convert digital Arabic character
 Arabic character recognition is the most difficult classification task in the machine learning field, one of the problems that make it difficult that each character has different shapes in the writing.
 
 In this model, we used Convolutional Neural Network (CNN) using dropout techniques to predict the characters. CNN is a deep learning algorithm that uses in terms of the visual image. CNN consists of three layers connected, these layers are; Input layer which stores row input data of the image processing in the network. Input layer accepted 3D input (width X height X depth) depth is for color channels in the color system (RGB). The second layer is feature-extraction layers; which consist of the Convolutional layer (Convolution), Pooling layer. Firstly, Convolutional layers (Convolution) transform the input data by using a patch of locally connecting neurons from the previous layer (input layer).
+
+
+Dataset used in this project imported from Kaggle: https://www.kaggle.com/datasets/mloey1/ahcd1
